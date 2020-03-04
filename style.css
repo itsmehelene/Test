@@ -121,7 +121,8 @@ width: 100%;
   height: 150px;
   object-fit: cover;
   background-position: center;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .passion {
@@ -138,6 +139,43 @@ width: 100%;
   border:3px solid #FFD965;
   padding: 5px;
 }
+
+
+/*ACTUALITE*/
+
+.cards {
+  display: inline-flex;
+  margin: 0px 100px;
+}
+
+.card-actu {
+  overflow: hidden;
+  background: white;
+}
+
+.card-actu > img {
+  height: 250px;
+
+  object-fit: cover;
+  padding-bottom: 16px
+}
+
+.card-actu h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-actu p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+.card-actu .card-actu-infos {
+  width: 80%;
+}
+
 
 /* HEXA */
 
@@ -211,17 +249,22 @@ width: 100%;
   background: inherit;
 }
 
-
-.hexagon:hover {
-  background-color: yellow;
-}
-
 /* DOC */
 
 .doc {
   background-color: lightgrey;
 }
 
+/*RESEAUX*/
 
+.reseaux {
+  background-color: lightblue;
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: darkgrey;
+}
 
 
